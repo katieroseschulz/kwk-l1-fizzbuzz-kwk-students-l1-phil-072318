@@ -8,12 +8,12 @@ end
 
 counter
 
-def fizzbuzz(int)
-  if int % 3 == 0 && int % 5 == 0 
+def fizzbuzz(counter)
+  if counter % 3 == 0 && counter % 5 == 0 
     "FizzBuzz"
-  elsif int % 3 == 0 
+  elsif counter % 3 == 0 
     "Fizz"
-  elsif int % 5 == 0 
+  elsif counter % 5 == 0 
     "Buzz"
   end
 end
