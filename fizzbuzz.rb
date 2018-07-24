@@ -3,12 +3,13 @@ def counter
   while number < 11 
   puts number
   number += 1 
-def fizzbuzz(counter)
-  if counter % 3 == 0 && counter % 5 == 0 
+end
+def fizzbuzz(int)
+  if int % 3 == 0 && int % 5 == 0 
     "FizzBuzz"
-  elsif counter % 3 == 0 
+  elsif int % 3 == 0 
     "Fizz"
-  elsif counter % 5 == 0 
+  elsif int % 5 == 0 
     "Buzz"
   end
 end
