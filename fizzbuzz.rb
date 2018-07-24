@@ -12,7 +12,6 @@ def fizzbuzz(counter)
   elsif counter % 5 == 0 
     "Buzz"
   end
-
 end
 
 counter
