@@ -10,6 +10,8 @@ def counter
   puts number
   number += 1 
 end
+end
+
 
 counter
 
