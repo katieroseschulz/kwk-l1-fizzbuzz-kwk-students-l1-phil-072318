@@ -9,8 +9,6 @@ def counter
     "Fizz"
   elsif counter % 5 == 0 
     "Buzz"
-  end
-end
 end
 
 counter
