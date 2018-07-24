@@ -1,3 +1,13 @@
+def counter
+  number = 0
+  while number < 11 
+  puts number
+  number += 1 
+  end
+end
+
+counter
+
 def fizzbuzz(int)
   if int % 3 == 0 && int % 5 == 0 
     "FizzBuzz"
@@ -9,3 +19,4 @@ def fizzbuzz(int)
 end
 
 fizzbuzz(3)
+
