@@ -11,7 +11,7 @@ def counter
   number += 1 
 end
 end
-
+end
 
 counter
 
