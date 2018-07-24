@@ -11,6 +11,7 @@ def counter
     "Buzz"
 end
 end
+end
 
 counter
 
